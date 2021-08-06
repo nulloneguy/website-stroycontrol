@@ -27,7 +27,12 @@
 	</head>
 	<body>
 		@@include("../blocks/modules/header/header.html")
-		<main>@@include("../blocks/modules/hello/hello.html")</main>
+		<main>
+			<!-- content -->
+			@@include("../blocks/modules/hello/hello.html")
+			@@include("../blocks/modules/features/features.html")
+			<!-- /content -->
+		</main>
 		@@include("../blocks/modules/footer/footer.html")
 		<script src="js/main.js"></script>
 		<script src="js/vendor.js"></script>
