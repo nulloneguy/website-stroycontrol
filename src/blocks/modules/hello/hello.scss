@@ -1,0 +1,33 @@
+.hello {
+	text-align: center;
+	&__container {}
+	&__title {
+		text-align: center;
+		max-width: 818;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	&__actions {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		@media (max-width: 383px) {
+			flex-direction: column;
+			.btn:first-child{
+				margin-bottom: 20px;
+			}
+		}
+	}
+	&__images{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 60px;
+		img{
+			&:first-child{
+			margin-bottom: 36px;
+			}
+		}
+	}
+}
