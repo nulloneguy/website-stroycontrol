@@ -15,11 +15,12 @@
 .item-features {
 		text-align: center;
 		&__image {
-
+			margin-bottom: 16px;
 		}
 		&__title {
 			max-width: 400px;
 			margin: 0 auto;
+			margin-bottom: 16px;
 		}
 		&__text {
 			max-width: 400px;
