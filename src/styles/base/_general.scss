@@ -130,6 +130,10 @@ ul{
 	&--light{
 		color: $headercolor;
 		background: #fff;
+		&:hover{
+			color: #fff;
+			background: $headercolor;
+		}
 	}
 	// size modificators
 	&--large{
