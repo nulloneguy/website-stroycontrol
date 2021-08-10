@@ -1,4 +1,4 @@
-modules.define('reliability', ['i-bem-dom'], function(provide, bemDom) {
+modules.define('delivery', ['i-bem-dom'], function(provide, bemDom) {
 
 provide(bemDom.declBlock(this.name, {
     onSetMod: {

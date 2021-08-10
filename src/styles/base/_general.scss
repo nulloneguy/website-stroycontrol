@@ -100,7 +100,8 @@ ul{
     padding: 0;
 }
 
-.link-has-line {
+.has-line {
+	color: $headercolor;
 	display: inline;
 	border-bottom: 6px solid $accent;
 	text-decoration: none;
