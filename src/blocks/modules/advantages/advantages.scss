@@ -1,0 +1,55 @@
+.advantages {
+		background: #212B31;
+		color: #ffffff;
+		.title{
+			color: #ffffff;
+		}
+		p{
+			color: #C7CACB;
+		}
+		&__container {}
+		&__body {}
+		&__row {
+			display: grid;
+			grid-template-columns: 2fr 1fr;
+			@media (max-width: $b-xl) {
+				grid-template-columns: 1fr;
+			}
+			align-content: center;
+		}
+		&__item {}
+		&__text {
+			
+		}
+		&__image {
+			@media (max-width: $b-xl) {
+				display: none;
+			}
+			img{
+				position: absolute;
+				max-height: 400px;
+				right: 0;
+			}
+		}
+		&__list {
+			padding-left: 30px;
+			li{
+					list-style: disc;
+			}
+			margin-bottom: 40px;
+		}
+}
+.footer-advantages {
+	margin-top: 80px;
+		&__row {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			@media (max-width: $b-md) {
+				grid-template-columns: 1fr;
+			}
+			gap: 40px 30px;
+		}
+		&__item {
+			text-align: center;
+		}
+}
