@@ -1,0 +1,86 @@
+.whyarewe {
+		&__container {}
+		&__header {
+			text-align: center;
+			max-width: 640px;
+			margin: 0 auto;
+			margin-bottom: 55px;
+		}
+		&__body {}
+		&__row{
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			@media (max-width: $b-lg) {
+				grid-template-columns: 1fr;
+			}
+			gap: 40px;
+		}
+		&__list {
+			display: grid;
+			grid-template-columns: 1fr;
+			gap: 30px 40px;
+			list-style-type: none;
+		}
+		&__item {}
+		&__quote {}
+}
+.item-whyarewe {
+		display: flex;
+
+		&__image {
+			margin-right: 16px;
+			img{
+				min-width: 48px;
+			}
+		}
+		&__text {}
+}
+.quote-whyarewe {
+		background: #F6F8F9;
+		border-radius: 5px;
+		padding: 60px 80px;
+		@media (max-width: $b-lg) {
+			padding: 40px 20px;
+		}
+		height: 100%;
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		&__body {}
+		&__text {
+			font-size: 30px;
+			line-height: 48px;
+			color: $headercolor;
+			position: relative;
+			&::before{
+				content: '';
+				display: block;
+				width: 104px;
+				height: 80px;
+				position: absolute;
+				top: -15px;
+				left: -40px;
+				background: url('../img/svg/quote.svg');
+			}
+		}
+		&__author {
+			display: flex;
+			align-items: center;
+			img{
+				width: 48px;
+				height: 48px;
+				margin-right: 12px;
+			}
+			p{
+				margin-bottom: 0;
+			}
+			span{
+				color: $headercolor;
+				display: block;
+				font-size: 16px;
+				line-height: 19px;
+			}
+		}
+}
