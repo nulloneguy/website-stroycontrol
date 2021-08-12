@@ -164,5 +164,5 @@ entry: {
 Используйте [эту](https://github.com/nulloneguy/gulp-pug-starter/) сборку.
 
 ## :envelope: Контакты
-* ВКонтакте: [@nullonegiu](https://vk.com/nullonegui)
-* Telegram: [@nullonegiu](https://t-do.ru/nullonegui)
+* ВКонтакте: [@nullonegiu](https://vk.com/nulloneguy)
+* Telegram: [@nullonegiu](https://t-do.ru/nulloneguy)
