@@ -3,7 +3,7 @@
 ## [Demo](https://nulloneguy.github.io/website-stroycontrol/dist)
 
 ## Screenshot
-![screenshot](screenshot)
+![screenshot](screenshot.png)
 
 
 ## :fire: Особенности
